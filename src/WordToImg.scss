@@ -1,0 +1,83 @@
+.wordToImg-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+.wordToImg-content{
+    width: fit-content;
+    .pseudo-before-wordToImg{
+        // border: 1px solid blue;
+        justify-self: center;
+        content: '';
+        position: absolute;
+        width: 664px;
+        height: 450px;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-image: url(./assets/images/auctionHammer_edit.jpg);
+        background-size: cover; 
+        background-position: center; 
+        z-index: -1; 
+        filter: blur(4px);
+    
+    }
+
+
+.wordToImg{
+    // border: 1px solid red;
+    width: 664px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .logo{
+        // border: 1px solid orange;
+        background-image: url(./assets/images/logo_bgRemove.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100px;
+        width: 250px;
+        height: 150px;
+        margin-top: 30px;
+        
+
+    }
+    .txt{
+        background-color: transparent;
+        border: none;
+        font-size: 16px;
+        color: #14a800;;
+        font-weight: 600;
+        word-wrap:break-word;
+        width: 70%;
+
+    }
+}
+}
+.form-control:focus {
+    border-color: #ced4da; /* default B5 color or set your own color*/
+    outline: none !important;
+    box-shadow: none !important;
+}
+.txt-input{
+    margin-top: 20px;
+    width: 664px;
+    height: 100px;
+    
+}
+.export-button{
+    margin-top: 5px;
+    border: none;
+    background-color: gray;
+    color: white;
+    width: 100px;
+    height: 30px;
+    &:hover{
+        background-color: green;
+    }
+}
+}
