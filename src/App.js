@@ -4,8 +4,6 @@ import { ConnectedRouter as Router } from 'connected-react-router';
 import { Provider } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 import store from './store';
-
-
 import WordToImg from './WordToImg';
 
 // function App() {
